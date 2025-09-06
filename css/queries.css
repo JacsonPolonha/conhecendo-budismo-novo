@@ -1,0 +1,44 @@
+  /* Telas médias - Menu visível */
+  @media (min-width: 768px) {
+    .menu-label {
+        display: none;
+    }
+    .menu-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background: transparent;
+        position: static;
+    }
+    .menu-items li {
+        padding: 10px 20px;
+    }
+
+    #banner {
+        align-items: flex-end;
+    }
+
+    #hero-image {
+        width: 20%;
+        display: block;
+    } 
+
+    #hero-title {
+        width: 25%;
+        font-size: 1.2rem;
+    } 
+
+    #hero-text {
+        width: 55%;
+        font-size: 1.1rem;
+    } 
+
+}
+
+
+ /* Telas grandes */
+ @media (min-width: 1024px) {
+    .menu-items {
+        justify-content: flex-end;
+    }
+}
